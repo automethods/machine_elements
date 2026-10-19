@@ -1,0 +1,162 @@
+{
+  "schema": "technical-module/1",
+  "moduleId": "module.mechanics.gear-geometry",
+  "version": "0.2.1",
+  "contractVersion": "1",
+  "runtime": "Headless ESM SI geometry and kinematics; browser parametric surface generator; optional OpenSCAD CLI reference generator",
+  "status": "implemented-geometry-and-kinematics",
+  "origins": [
+    {
+      "path": "vehickle_math_models/modules/gear-geometry/vendor/BOSL2/gears.scad",
+      "sha256": "f8f66c3ceba471a338f7948c19bc60d28e9ff8fea5cf78e82ccb0c8ab56f65ef",
+      "locator": "https://github.com/BelfrySCAD/BOSL2@6cacf1b7d69a8a4bd383b5637586fec1c179c86f"
+    },
+    {
+      "path": "vehickle_math_models/modules/gear-geometry/vendor/PlanetaryGears/lib/PlanetaryGearModel.js",
+      "sha256": "842983019eedff0a77276b1866c08178daee2ff7dafe7fe9e37d923f43f50203",
+      "locator": "https://github.com/tommccracken/PlanetaryGears@9ed95215835a569ef5029751729ef85976d8758a"
+    },
+    {
+      "path": "vehickle_math_models/modules/validation/origins/pre-gears/mechanics-gear-geometry.js",
+      "sha256": "14859a834844eaaa2426c03b407c38d6551fdc7a0a63e924a76ab9daa7fbcc43",
+      "locator": "Original Mechanics profile fallback before shared adoption"
+    },
+    {
+      "path": "vehickle_math_models/modules/gear-geometry/BROWSER.md",
+      "sha256": "c60c61aae74c5d9642c78816b4993cadb134c02b6932e6811d189ce1debb7e94",
+      "locator": "BSD-2-Clause BOSL2 numerical surface adaptation; retained upstream source and licences"
+    }
+  ],
+  "modelReferences": [],
+  "ports": {
+    "commonInputs": [
+      "gearModuleM",
+      "gearPinionTeeth",
+      "gearWheelTeeth",
+      "gearFaceWidthM",
+      "gearPressureAngleRad",
+      "gearHelixAngleRad",
+      "gearBacklashM",
+      "gearShaftBoreM",
+      "gearMateShaftBoreM",
+      "gearShaftAngleRad",
+      "gearWormDiameterM",
+      "gearWormLengthM",
+      "gearWormStarts",
+      "gearPlanetCount",
+      "gearSunTeeth",
+      "gearPlanetTeeth",
+      "gearRingTeeth",
+      "gearRingRimThicknessM",
+      "gearSunAngularSpeedRadPerS",
+      "gearRingAngularSpeedRadPerS",
+      "gearViewTimeS"
+    ],
+    "outputs": [
+      "gearCarrierAngularSpeedRadPerS",
+      "gearPlanetAngularSpeedRadPerS",
+      "gearCenterDistanceM",
+      "gearVertexPositionsM",
+      "gearTriangleIndices",
+      "gearProfileRegionsM"
+    ]
+  },
+  "variants": [
+    {
+      "id": "bosl2-spur/1",
+      "origin": "Pinned BOSL2 gears.scad",
+      "equations": [
+        "Source generator; module in metres and angles in radians converted once to upstream millimetres/degrees"
+      ],
+      "assumptions": [
+        "Normal reference geometry, x=0; spur/helical mating helices have opposite hands",
+        "Bevel meshes share a pitch-cone apex; straight tooth uses spiral=0 and cutter_radius=0",
+        "Worm wheel is enveloping BOSL2 geometry; width solved from its own get_thickness function",
+        "Planetary ring uses a genuine internal-tooth cavity plus explicitly adopted rim thickness"
+      ]
+    },
+    {
+      "id": "bosl2-helical/1",
+      "origin": "Pinned BOSL2 gears.scad",
+      "equations": [
+        "Source generator; module in metres and angles in radians converted once to upstream millimetres/degrees"
+      ],
+      "assumptions": [
+        "Normal reference geometry, x=0; spur/helical mating helices have opposite hands",
+        "Bevel meshes share a pitch-cone apex; straight tooth uses spiral=0 and cutter_radius=0",
+        "Worm wheel is enveloping BOSL2 geometry; width solved from its own get_thickness function",
+        "Planetary ring uses a genuine internal-tooth cavity plus explicitly adopted rim thickness"
+      ]
+    },
+    {
+      "id": "bosl2-bevel/1",
+      "origin": "Pinned BOSL2 gears.scad",
+      "equations": [
+        "Source generator; module in metres and angles in radians converted once to upstream millimetres/degrees"
+      ],
+      "assumptions": [
+        "Normal reference geometry, x=0; spur/helical mating helices have opposite hands",
+        "Bevel meshes share a pitch-cone apex; straight tooth uses spiral=0 and cutter_radius=0",
+        "Worm wheel is enveloping BOSL2 geometry; width solved from its own get_thickness function",
+        "Planetary ring uses a genuine internal-tooth cavity plus explicitly adopted rim thickness"
+      ]
+    },
+    {
+      "id": "bosl2-worm/1",
+      "origin": "Pinned BOSL2 gears.scad",
+      "equations": [
+        "Source generator; module in metres and angles in radians converted once to upstream millimetres/degrees"
+      ],
+      "assumptions": [
+        "Normal reference geometry, x=0; spur/helical mating helices have opposite hands",
+        "Bevel meshes share a pitch-cone apex; straight tooth uses spiral=0 and cutter_radius=0",
+        "Worm wheel is enveloping BOSL2 geometry; width solved from its own get_thickness function",
+        "Planetary ring uses a genuine internal-tooth cavity plus explicitly adopted rim thickness"
+      ]
+    },
+    {
+      "id": "bosl2-planetary/1",
+      "origin": "Pinned BOSL2 gears.scad",
+      "equations": [
+        "Source generator; module in metres and angles in radians converted once to upstream millimetres/degrees"
+      ],
+      "assumptions": [
+        "Normal reference geometry, x=0; spur/helical mating helices have opposite hands",
+        "Bevel meshes share a pitch-cone apex; straight tooth uses spiral=0 and cutter_radius=0",
+        "Worm wheel is enveloping BOSL2 geometry; width solved from its own get_thickness function",
+        "Planetary ring uses a genuine internal-tooth cavity plus explicitly adopted rim thickness"
+      ]
+    },
+    {
+      "id": "planetary-willis-mccracken/1",
+      "origin": "Pinned upstream PlanetaryGearModel.js; ES export appended",
+      "equations": [
+        "Upstream size mode 1 and speed mode 2; view time seconds converted to upstream milliseconds"
+      ],
+      "assumptions": [
+        "Spur sun/planet/ring with equal spacing",
+        "Integer tooth counts, assembly divisibility and tip-circle clearance validated before motion is returned"
+      ]
+    },
+    {
+      "id": "browser-bosl2-derived/1",
+      "origin": "Pinned BOSL2 numerical constructions with browser sampling and cap triangulation",
+      "equations": [
+        "Involute lookup and clearance valley; normal-module helix; bevel-cone surfaces and backing; rack-generated worm; throated worm wheel; internal ring"
+      ],
+      "assumptions": [
+        "Nominal x=0 geometry; browser sampling differs from OpenSCAD; no manufacturing certification"
+      ]
+    }
+  ],
+  "validation": [
+    "vehickle_math_models/modules/tests/gear-geometry.test.mjs",
+    "Machine_elements/scripts/browser-check.mjs",
+    "vehickle_math_models/modules/tests/browser-gears.test.mjs"
+  ],
+  "limitations": [
+    "Geometry and kinematics do not establish gear strength, bearing axial/radial capacity, efficiency, thermal limits or manufacturing tolerances.",
+    "OpenSCAD echo coordinates have six significant digits; nominal meshes are triangulated approximations.",
+    "Legacy analytical involute fallback retains a radial root transition, explicitly identified separately from BOSL2."
+  ]
+}

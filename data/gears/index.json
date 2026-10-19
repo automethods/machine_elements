@@ -1,0 +1,91 @@
+{
+  "schema": "technical-gear-preview-cache/1",
+  "moduleVersion": "0.1.3",
+  "producer": "vehickle_math_models/modules/gear-geometry",
+  "entries": [
+    {
+      "family": "spur",
+      "canonicalRequest": "{\"family\":\"spur\",\"gearBacklashM\":0,\"gearFaceWidthM\":0.012,\"gearMateShaftBoreM\":0.012,\"gearModuleM\":0.002,\"gearPinionTeeth\":20,\"gearPressureAngleRad\":0.3490658503988659,\"gearShaftBoreM\":0.008,\"gearWheelTeeth\":40}",
+      "file": "42cbd952e6e6ab559607e149ed7c8e84c3edd763b788538f664624614de10167.json",
+      "sha256": "f6a9fe2e9d64970e3812676601e8c784d45e03675a7765f7f403a2d9ceacf9f5"
+    },
+    {
+      "family": "helical",
+      "canonicalRequest": "{\"family\":\"helical\",\"gearBacklashM\":0,\"gearFaceWidthM\":0.012,\"gearHelixAngleRad\":0.3490658503988659,\"gearMateShaftBoreM\":0.012,\"gearModuleM\":0.002,\"gearPinionTeeth\":20,\"gearPressureAngleRad\":0.3490658503988659,\"gearShaftBoreM\":0.008,\"gearWheelTeeth\":40}",
+      "file": "55c662e37ebf8ce8ad00374573e4829c9924b7f8334ccb1dfc4868a32dcad6df.json",
+      "sha256": "4580b156425f679e2708904e762de16dacff71f65431e7b2f4927af5d95bf56d"
+    },
+    {
+      "family": "bevel",
+      "canonicalRequest": "{\"family\":\"bevel\",\"gearBacklashM\":0,\"gearFaceWidthM\":0.012,\"gearModuleM\":0.002,\"gearPinionTeeth\":20,\"gearPressureAngleRad\":0.3490658503988659,\"gearShaftAngleRad\":1.5707963267948966,\"gearWheelTeeth\":40}",
+      "file": "538511429736e6f4f74c9b2580fdf2e046906a13e545b17da3e2a7344f88996d.json",
+      "sha256": "d04197f67501ee5bb89aa09c2768bf139d7e627505ee6e7ab4745c133415af98"
+    },
+    {
+      "family": "worm",
+      "canonicalRequest": "{\"family\":\"worm\",\"gearBacklashM\":0,\"gearFaceWidthM\":0.012,\"gearModuleM\":0.002,\"gearPressureAngleRad\":0.3490658503988659,\"gearWheelTeeth\":36,\"gearWormDiameterM\":0.03,\"gearWormLengthM\":0.08,\"gearWormStarts\":2}",
+      "file": "0490896b7935968423fd9cd54659168dc76640df227b6aa61cf63072ed8eb801.json",
+      "sha256": "a918c54aa77bb80ad410003ff5f995d870222a20a51b11e2fe494bd8519be49d"
+    },
+    {
+      "family": "planetary",
+      "canonicalRequest": "{\"family\":\"planetary\",\"gearBacklashM\":0,\"gearFaceWidthM\":0.012,\"gearModuleM\":0.002,\"gearPlanetCount\":3,\"gearPlanetTeeth\":24,\"gearPressureAngleRad\":0.3490658503988659,\"gearRingAngularSpeedRadPerS\":0,\"gearRingRimThicknessM\":0.006,\"gearRingTeeth\":72,\"gearSunAngularSpeedRadPerS\":0.7853981633974483,\"gearSunTeeth\":24,\"gearViewTimeS\":0}",
+      "file": "fbcc0a482e7bd50afc00021965fa953ce4a4ba984ca8dfcbba8baa826a44a46d.json",
+      "sha256": "6dddebe3d85e28b6e6cc10654f8b8b6f00e12c778650baed796abecdbb4d36ce"
+    },
+    {
+      "family": "spur",
+      "canonicalRequest": "{\"family\":\"spur\",\"gearBacklashM\":0,\"gearFaceWidthM\":0.03,\"gearMateShaftBoreM\":0.035,\"gearModuleM\":0.0025,\"gearPinionTeeth\":20,\"gearPressureAngleRad\":0.3490658503988659,\"gearShaftBoreM\":0.025,\"gearWheelTeeth\":80}",
+      "file": "b33eb9271560299c30fd4b844f726c28c64ce3104e518ee03777a4062b139287.json",
+      "sha256": "835925dcc36277c79e9f820a9110781ca3bab44c851099e62593307dea7768ce"
+    },
+    {
+      "family": "spur",
+      "canonicalRequest": "{\"family\":\"spur\",\"gearBacklashM\":0,\"gearFaceWidthM\":0.04,\"gearMateShaftBoreM\":0.045,\"gearModuleM\":0.004,\"gearPinionTeeth\":20,\"gearPressureAngleRad\":0.3490658503988659,\"gearShaftBoreM\":0.035,\"gearWheelTeeth\":94}",
+      "file": "9622eff1d0abf41c871b98f0aa50a48424d6d2f980111bd90bb1c7385a022d22.json",
+      "sha256": "f5c2d7aa10e45e38729acebc97b928a340cff1783bfdeff009a82d10ccb7b4c5"
+    },
+    {
+      "family": "bevel",
+      "canonicalRequest": "{\"family\":\"bevel\",\"gearBacklashM\":0,\"gearFaceWidthM\":0.03,\"gearModuleM\":0.0025,\"gearPinionTeeth\":20,\"gearPressureAngleRad\":0.3490658503988659,\"gearShaftAngleRad\":1.5707963267948966,\"gearWheelTeeth\":80}",
+      "file": "fdafd533ce33be886148baef1fbc8dbe68ac9e7b3f3ec9650bd6dbed321520ea.json",
+      "sha256": "bf746ceb5d7a823df38900b0cfae9fec7515f61aa2e4549592aec2c6b87771a0"
+    },
+    {
+      "family": "bevel",
+      "canonicalRequest": "{\"family\":\"bevel\",\"gearBacklashM\":0,\"gearFaceWidthM\":0.04,\"gearModuleM\":0.004,\"gearPinionTeeth\":20,\"gearPressureAngleRad\":0.3490658503988659,\"gearShaftAngleRad\":1.5707963267948966,\"gearWheelTeeth\":94}",
+      "file": "2009af800156ecdb6e4b6efb1c47bd567f3e8ed6c7de2e4ce69c0ad215df0620.json",
+      "sha256": "5c0293acd4b76dd99bc1327e2d60fd163777365133d10506e4a2f2c23c4b6baf"
+    },
+    {
+      "family": "worm",
+      "canonicalRequest": "{\"family\":\"worm\",\"gearBacklashM\":0,\"gearFaceWidthM\":0.012,\"gearModuleM\":0.0025,\"gearPressureAngleRad\":0.3490658503988659,\"gearWheelTeeth\":38,\"gearWormDiameterM\":0.03,\"gearWormLengthM\":0.08,\"gearWormStarts\":2}",
+      "file": "bc8cd56cc252abb372fbc8f27ed0aa69a737aa33e32734553bee40c84a5b18be.json",
+      "sha256": "48da97368de79d5805a5cae0c6323398f11f5016ef5f75d00bed08385f4b4e2d"
+    },
+    {
+      "family": "planetary",
+      "canonicalRequest": "{\"family\":\"planetary\",\"gearBacklashM\":0,\"gearFaceWidthM\":0.03,\"gearModuleM\":0.0025,\"gearPlanetCount\":3,\"gearPlanetTeeth\":27,\"gearPressureAngleRad\":0.3490658503988659,\"gearRingAngularSpeedRadPerS\":0,\"gearRingRimThicknessM\":0.006,\"gearRingTeeth\":78,\"gearSunAngularSpeedRadPerS\":0.7853981633974483,\"gearSunTeeth\":24,\"gearViewTimeS\":0}",
+      "file": "6f5f6dd64dc1fa6bb05fb253da5dbdf2b576a49c1329696ae46d6314e20ba8cd.json",
+      "sha256": "27d4641ae3cca5ed5e9128d6fe646b3b6e409237c47b980e4e296b259a8502cf"
+    },
+    {
+      "family": "planetary",
+      "canonicalRequest": "{\"family\":\"planetary\",\"gearBacklashM\":0,\"gearFaceWidthM\":0.04,\"gearModuleM\":0.004,\"gearPlanetCount\":3,\"gearPlanetTeeth\":27,\"gearPressureAngleRad\":0.3490658503988659,\"gearRingAngularSpeedRadPerS\":0,\"gearRingRimThicknessM\":0.006,\"gearRingTeeth\":78,\"gearSunAngularSpeedRadPerS\":0.7853981633974483,\"gearSunTeeth\":24,\"gearViewTimeS\":0}",
+      "file": "ca54c03c01e8db377b30fa83369a3f0adf91411fbcc8ec572a4419085c21c5dc.json",
+      "sha256": "39e67b3455d6a968521c5a32f44c4acae0ece9648ded6911a94164803ecbe30f"
+    },
+    {
+      "family": "helical",
+      "canonicalRequest": "{\"family\":\"helical\",\"gearBacklashM\":0,\"gearFaceWidthM\":0.03,\"gearHelixAngleRad\":0.3490658503988659,\"gearMateShaftBoreM\":0.035,\"gearModuleM\":0.0025,\"gearPinionTeeth\":20,\"gearPressureAngleRad\":0.3490658503988659,\"gearShaftBoreM\":0.025,\"gearWheelTeeth\":80}",
+      "file": "4f4eb05c03c9713d937bdd362746ba57bc44648c8117eee2fbec83e78737e993.json",
+      "sha256": "bc660d04df2444065ccba4b2622779c610e4fe1db2554f034123bf7c93c59407"
+    },
+    {
+      "family": "helical",
+      "canonicalRequest": "{\"family\":\"helical\",\"gearBacklashM\":0,\"gearFaceWidthM\":0.04,\"gearHelixAngleRad\":0.3490658503988659,\"gearMateShaftBoreM\":0.045,\"gearModuleM\":0.004,\"gearPinionTeeth\":20,\"gearPressureAngleRad\":0.3490658503988659,\"gearShaftBoreM\":0.035,\"gearWheelTeeth\":94}",
+      "file": "06062dcdb48c698454b039a5acd9ddad0f9cce7e346751f9300d6264b536012f.json",
+      "sha256": "2b29b41403b2e23079c34c0f243ea98f1bd22fbb4c333a9afbbbb1d67ca3ea3b"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "checkedAt": "2026-10-16",
+  "sources": [
+    {
+      "id": "skf-17000-1-en",
+      "url": "https://cdn.skfmediahub.skf.com/api/public/0901d196802809de/pdf_preview_medium/0901d196802809de_pdf_preview_medium.pdf",
+      "sha256": "65e0919bee24975b9563ca0d9adf721a9e7efcf6d0fa32c18b8d119d37b190b2",
+      "originalUnits": "mm, kN, rpm",
+      "conversion": "length / 1000; force * 1000; rotational frequency / 60",
+      "execution": "Open deep-groove ball bearings only; sealed variants are distinct products",
+      "excerptPrintedPages": [
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300,
+        301,
+        302,
+        303
+      ],
+      "scope": "344 open metric deep-groove bearings; 5–300 mm bores; exact cage suffixes retained. Adjacent abutment tables are included."
+    },
+    {
+      "id": "ovako",
+      "urls": [
+        "https://steelnavigator.ovako.com/steel-grades/c45/",
+        "https://steelnavigator.ovako.com/steel-grades/42crmo4/"
+      ],
+      "originalUnits": "mm, MPa, HB",
+      "conversion": "length / 1000; stress * 1e6; HB retained as original hardness scale",
+      "scope": "Round-bar diameter of material stock, not finished shaft diameter; no fatigue or contact allowable stress inferred. Size interval retained explicitly.",
+      "boundaryPolicy": "Original dimension text is retained. Consumers adopt strict interior only; endpoint inclusivity is not resolved from the terse source notation."
+    },
+    {
+      "id": "dereza-2019",
+      "file": "/media/cigameca/SHARED/Work/Literature/Mechanics_industrial/Посiбник_ІМ(ДМ)-КН.pdf",
+      "printedPage": 183,
+      "pdfPage": 184,
+      "status": "historical module rows; source image visually checked"
+    },
+    {
+      "id": "gates-19993-2021",
+      "url": "https://gates.com/content/dam/documents-library/catalogs/power-transmission-catalog.pdf",
+      "sha256": "4942baeb15bd5e01488c0a53f8254a1622f657871be5168024d0c0d96447436c",
+      "edition": "2021; catalogue 19993",
+      "originalUnits": "mm and inches; integer teeth",
+      "conversion": "metric length / 1000; tooth count unchanged",
+      "scope": "Curated GT4 / GT3 / HTD belt dimensions. GT4 requires compatible GT sprockets. Working-force rating is not inferred from geometry.",
+      "excerptPdfPages": [
+        67,
+        68,
+        70,
+        81,
+        83
+      ]
+    },
+    {
+      "id": "renold-050423",
+      "url": "https://www.renold.com/media/4120488/renold-transmission-chain-catalogue-050423.pdf",
+      "originalUnits": "mm and N",
+      "conversion": "length / 1000; force unchanged",
+      "locator": "Section 1: Renold Premier; European (BS) Standard Simplex; ISO 606 minimum tensile strength",
+      "access": "Official indexed table text; direct PDF request returned HTTP 403 on 2026-10-14",
+      "scope": "Inner width is minimum; roller diameter maximum. Tensile strength is NOT allowable working force."
+    },
+    {
+      "id": "abb-ie2-2019",
+      "url": "https://library.e.abb.com/public/b6387bf2344c43a6a6ba2ba346e9e254/Catalogue%20all%20products%20IEC%20LV%20Motors.pdf",
+      "sha256": "64edf47ea2d4dbf74d98bd6e0d81cf8dc10924966b89480cb702ea6a70a57359",
+      "originalUnits": "kW; rated rpm; electrical supply Hz; V; poles",
+      "conversion": "mechanical output kW * 1000; rated rpm / 60; supply frequency retained separately",
+      "excerptPdfPages": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "scope": "Manufacturer catalogue examples; edition and voltage retained. Synchronous speed is not rated shaft speed. No current availability or compliance inferred."
+    },
+    {
+      "id": "abb-general-2008",
+      "url": "https://library.e.abb.com/public/2f9261b4ae1b7d8dc1257b1300571015/General%20Purpose%20Motors%20EN%2004-2008%20final.pdf",
+      "sha256": "186d5a69f512bf30f3419ce4e3e4669034bb725781f50939bab329d3bd7c120b",
+      "originalUnits": "kW; rated rpm; electrical supply Hz; V; poles",
+      "conversion": "mechanical output kW * 1000; rated rpm / 60; supply frequency retained separately",
+      "excerptPdfPages": [
+        7
+      ],
+      "scope": "Manufacturer catalogue examples; edition and voltage retained. Synchronous speed is not rated shaft speed. No current availability or compliance inferred."
+    },
+    {
+      "id": "optibelt-pr17",
+      "url": "https://docs.rs-online.com/ab53/A700000011050134.pdf",
+      "publisher": "Arntz Optibelt Group, Germany",
+      "edition": "PR-17; effective 2017-02-01; manufacturer publication mirrored by RS",
+      "sha256": "045171dd5eeeffaf5db84ab615746fc1992a27f10011c12bf93522ac56d03763",
+      "originalUnits": "mm",
+      "conversion": "length / 1000",
+      "excerptPrintedPages": [
+        4,
+        14
+      ],
+      "scope": "Wrapped VB and SK profile nominal dimensions and minimum pulley datum diameters. Li and Ld designation bases remain distinct. No power rating or working tension inferred."
+    }
+  ]
+}
