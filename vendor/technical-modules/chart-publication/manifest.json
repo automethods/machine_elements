@@ -1,0 +1,40 @@
+{
+  "schema": "technical-module/1",
+  "moduleId": "module.presentation.chart-publication",
+  "version": "0.1.0",
+  "contractVersion": "1",
+  "runtime": "Browser ESM; strict Graph SVG publication and independent DOM geometry inspection",
+  "status": "implemented",
+  "origins": [
+    {
+      "path": "vehickle_math_models/modules/validation/origins/graph-0.4.1/publish.js",
+      "sha256": "0c55f88c7b0da685c1c3d8afe68356ce2895e784cac52f1d43a4c9415bf63e5d",
+      "locator": "Graph 0.4.1 original licensed publication module before Firefox coordinate-space correction"
+    }
+  ],
+  "modelReferences": [],
+  "ports": {
+    "commonInputs": [],
+    "outputs": []
+  },
+  "variants": [
+    {
+      "id": "graph-svg-screen-space/1",
+      "origin": "Graph Technical Chart Adapter 0.4.1; one reviewed inspection transform correction",
+      "equations": [
+        "Root screen matrix inverse × element screen matrix; existing mm conversion preserved"
+      ],
+      "assumptions": [
+        "All SVG geometry and glyph bounds use the same outer screen coordinate space",
+        "Original publication profile, rendering and strict conformance checks are retained"
+      ]
+    }
+  ],
+  "validation": [
+    "Machine_elements/scripts/pdf-browser-check.mjs"
+  ],
+  "limitations": [
+    "Browser-rendered vector metrology is not a full DSTU compliance certificate.",
+    "Upstream profile uses explicit mm and SVG units; native arrays and physical model results are unchanged."
+  ]
+}
