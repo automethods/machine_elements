@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="uk">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+ <meta name="description" content="АвтоМетод: інтерактивний розрахунок механічного привода, передач, валів, підшипників, шпонок, болтів та базових деталей машин.">
+ <title>automethods.com — Технічна механіка</title>
+ <link rel="icon" href="assets/favicon.svg?v=machine-elements-uniform-line-a-048" type="image/svg+xml">
+ <link rel="stylesheet" href="src/app.css">
+ <script src="src/language-preference.js"></script>
+  <script src="/api/language.js"></script>
+ <script>window.MathJax={tex:{inlineMath:[['\\(','\\)']],displayMath:[['\\[','\\]']]},options:{skipHtmlTags:['script','noscript','style','textarea','pre','code']}};</script>
+ <script defer src="vendor/mathjax/tex-svg-full.js"></script>
+ <script defer src="vendor/plotly-3.3.1.min.js"></script>
+  <link rel="canonical" href="https://automethods.com/projects/mechanics/">
+</head>
+<body>
+ <a class="skip-link" href="#content">До розрахунку</a>
+ <div class="app-shell">
+  <aside class="sidebar" aria-label="Навігація за розділами">
+   <div class="institution-hierarchy" aria-label="Заклад освіти і кафедра">
+    <details class="institution-group" data-institution-id="zhatk"><summary class="brand"><img src="assets/college.svg" alt=""><span><small>Заклад освіти</small><strong>Житомирський агротехнічний фаховий коледж</strong></span></summary><div class="institution-children"><a class="institution-site" href="https://zhatk.zt.ua/" target="_blank" rel="noopener">Офіційний сайт закладу ↗</a><a class="brand department-brand" data-institution-id="zhatk-automobile-transport" href="https://zhatk.zt.ua/osvitnij-proczes/kafedri/kafedra-avtomobilnij-transport/" target="_blank" rel="noopener"><span class="department-emblem" aria-hidden="true"><img src="assets/department-hazards-off.png" alt="" width="768" height="352"><img class="hazards-on" src="assets/department-hazards-on.png" alt="" width="768" height="352"></span><span><small>Кафедра</small><strong>Автомобільний транспорт ↗</strong></span></a></div></details>
+    <a class="worksheet-home" href="#task">Інтерактивні методичні рекомендації · <span data-version></span></a>
+   </div>
+   <nav id="chapter-nav"></nav>
+   <p class="sidebar-note">Вихідні дані, формули, одиниці та прийняті припущення залишаються видимими.</p>
+  </aside>
+  <main class="main" id="content">
+   <header class="topbar"><a href="https://automethods.com/">← АвтоМетод</a><span class="save-status" id="saveStatus" role="status">Готуємо навчальний приклад…</span><details class="project-about" id="projectAbout">
+  <summary>Про проєкт</summary>
+  <div class="project-about-content"><section class="project-credit-section" data-credit-role="founder"><h2>Засновник</h2><ul class="project-credit-list credits-inline" role="list"><li><strong title="Ломакін Володимир Олександрович">Ломакін В. О.</strong>, <span class="project-credit-qualification" title="кандидат технічних наук">к. т. н.</span></li></ul></section><section class="project-credit-section" data-credit-role="author"><h2>Автори</h2><ul class="project-credit-list credits-inline project-author-list" role="list"><li><strong title="Ломакін Володимир Олександрович">Ломакін В. О.</strong>, <span class="project-credit-qualification" title="кандидат технічних наук">к. т. н.</span></li><li><strong title="Мельничук Сергій Володимирович">Мельничук С. В.</strong>, <span class="project-credit-qualification" title="кандидат технічних наук, доцент">к. т. н., доц.</span></li></ul></section><section class="project-credit-section" data-credit-role="contributor"><h2>Учасники розроблення (contributors)</h2><h3>Заклад освіти: Житомирський агротехнічний фаховий коледж</h3><p class="project-credit-placeholder">Список доповнюється.</p></section><p class="project-credit-note" data-credit-note="aiAssistance">Допомога ШІ: підготовка текстів, переклад, допомога з програмуванням і перевірки (моделі родини GPT-6).</p><p class="project-credit-copyright">© 2026 Автори проєкту.</p></div>
+</details><div class="account-controls"><a class="account-link" data-account-link href="https://automethods.com/?account=signin">Увійти</a><div class="language-switch" role="group" aria-label="Мова"><button type="button" data-language-choice="uk" translate="no">UA</button><button type="button" data-language-choice="en" translate="no">EN</button></div></div></header>
+   <section class="hero">
+    <div><p class="eyebrow">Технічна механіка</p><h1>Проєктний розрахунок<br>механічного привода</h1><p class="lead">Від завдання й вибору передач — до навантажень, перевірки деталей та власного обґрунтування.</p><div class="hero-actions"><a class="guide-download-link" href="downloads/methodical-guide.pdf" download data-state="ready"><span class="guide-download-title">Методичні вказівки</span><span class="guide-download-note">Усі підтримувані варіанти розрахунку</span></a></div></div>
+    <img class="hero-mark" src="assets/reducer.svg" alt="Умовна схема механічного привода з двома зубчастими ступенями">
+   </section>
+   <p id="accessNotice" class="note" role="status">Режим перегляду. Будь ласка, увійдіть, щоб змінювати дані та створювати або завантажувати PDF.</p><div id="loadWarning" class="note warning" hidden></div>
+   <div id="chapters"><p>Завантаження навчального розрахунку…</p></div>
+   <section id="projectTools" class="project-tools" aria-labelledby="projectToolsTitle">
+    <h3 id="projectToolsTitle">Збереження та відкриття проєкту</h3>
+    <div class="project-actions"><button class="button" type="button" data-save>Зберегти проєкт JSON</button><label class="project-open" for="projectFile">Відкрити збережений JSON<input type="file" id="projectFile" accept=".json,application/json"></label><button class="button" type="button" data-example>Відкрити перевірений приклад</button></div>
+    <p class="source-note" role="status">JSON зберігає вихідні дані та обґрунтування. Після відкриття результати перераховуються.</p>
+    <p class="source-note">Перевірений приклад — циліндричний редуктор із вибраною гнучкою передачею. Поточний варіант спершу завантажиться як резервний JSON.</p>
+    <button type="button" data-design>Підготувати уточнення конструкції</button><p class="source-note">Послідовність змін і повторних перевірок буде показано в розділі 11 перед прийняттям.</p>
+   </section>
+   <section id="report-export" class="chapter" aria-labelledby="reportExportTitle"><header class="chapter-heading"><span class="number">PDF</span><h2 id="reportExportTitle">Технічний звіт</h2></header><p>Експорт містить вихідні дані, пояснення величин, пронумеровані формули, числові підстановки, перевірки та векторні рисунки поточного варіанта.</p><div class="report-actions"><button class="button" type="button" data-report>Оновити попередній перегляд</button><button class="button primary" type="button" data-export-pdf>Звіт A4 / PDF</button><button class="button" type="button" data-export-drawing>Креслення редуктора A1 / PDF</button><button class="button" type="button" data-export-parts>Деталі A1 / PDF</button></div><p class="source-note">Після підготовки відкриється діалог друку. Виберіть «Зберегти як PDF».</p></section>
+   <section id="report" class="chapter" hidden></section>
+   <footer class="site-footer"><a href="https://automethods.com/">automethods.com</a><span>Технічна механіка · <span data-version></span></span></footer>
+  </main>
+ </div>
+ <div class="toast" id="toast" role="alert" hidden></div>
+ <script type="importmap">{"imports":{"three":"./vendor/three/build/three.module.js"}}</script>
+ <script type="module" src="src/boot.js"></script>
+</body></html>
