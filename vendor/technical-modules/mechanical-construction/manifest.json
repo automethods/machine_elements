@@ -1,0 +1,42 @@
+{
+  "schema": "technical-module/1",
+  "moduleId": "module.mechanics.mechanical-construction",
+  "version": "0.1.9",
+  "contractVersion": "1",
+  "runtime": "Dependency-free headless ESM; SI immutable query results",
+  "status": "implemented-teaching-construction-and-static-screening",
+  "origins": [
+    {
+      "path": "vehickle_math_models/modules/mechanical-construction/README.md",
+      "sha256": "6c4237439541a4916b41bc3d4bf10dd52a8f682612cc39f96698fb4a569130a6",
+      "locator": "Original shared construction and static beam contract; manufacturer and mechanics references in README"
+    }
+  ],
+  "modelReferences": [],
+  "ports": {
+    "commonInputs": [
+      "mechanicalConstructionRequest"
+    ],
+    "outputs": [
+      "mechanicalConstructionResult"
+    ]
+  },
+  "variants": [
+    {
+      "id": "shoulder-spacer-endplate",
+      "origin": "Original shared model",
+      "equations": [
+        "Static equilibrium; piecewise Euler\u2013Bernoulli curvature; conservative root-circle von Mises; integer reduction allocation"
+      ],
+      "assumptions": [
+        "Small elastic deformation; two radial supports; teaching axial retention layout"
+      ]
+    }
+  ],
+  "validation": [
+    "tests/mechanical-construction.test.mjs"
+  ],
+  "limitations": [
+    "No fatigue rating, housing strength, seal product certification or bolted-joint preload/loosening verification."
+  ]
+}

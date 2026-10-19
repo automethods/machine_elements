@@ -1,0 +1,25 @@
+id,module_m,preferred_row,source_id,printed_page,pdf_page,standard_reference,status
+module-1,0.001,1,dereza-2019,183,184,GOST 9563-60,historical textbook reference; current standard not asserted
+module-1.25,0.00125,1,dereza-2019,183,184,GOST 9563-60,historical textbook reference; current standard not asserted
+module-1.5,0.0015,1,dereza-2019,183,184,GOST 9563-60,historical textbook reference; current standard not asserted
+module-2,0.002,1,dereza-2019,183,184,GOST 9563-60,historical textbook reference; current standard not asserted
+module-2.5,0.0025,1,dereza-2019,183,184,GOST 9563-60,historical textbook reference; current standard not asserted
+module-3,0.003,1,dereza-2019,183,184,GOST 9563-60,historical textbook reference; current standard not asserted
+module-4,0.004,1,dereza-2019,183,184,GOST 9563-60,historical textbook reference; current standard not asserted
+module-5,0.005,1,dereza-2019,183,184,GOST 9563-60,historical textbook reference; current standard not asserted
+module-6,0.006,1,dereza-2019,183,184,GOST 9563-60,historical textbook reference; current standard not asserted
+module-8,0.008,1,dereza-2019,183,184,GOST 9563-60,historical textbook reference; current standard not asserted
+module-10,0.01,1,dereza-2019,183,184,GOST 9563-60,historical textbook reference; current standard not asserted
+module-12,0.012,1,dereza-2019,183,184,GOST 9563-60,historical textbook reference; current standard not asserted
+module-1.125,0.001125,2,dereza-2019,183,184,GOST 9563-60,historical textbook reference; current standard not asserted
+module-1.375,0.001375,2,dereza-2019,183,184,GOST 9563-60,historical textbook reference; current standard not asserted
+module-1.75,0.00175,2,dereza-2019,183,184,GOST 9563-60,historical textbook reference; current standard not asserted
+module-2.25,0.00225,2,dereza-2019,183,184,GOST 9563-60,historical textbook reference; current standard not asserted
+module-2.75,0.00275,2,dereza-2019,183,184,GOST 9563-60,historical textbook reference; current standard not asserted
+module-3.5,0.0035,2,dereza-2019,183,184,GOST 9563-60,historical textbook reference; current standard not asserted
+module-4.5,0.0045,2,dereza-2019,183,184,GOST 9563-60,historical textbook reference; current standard not asserted
+module-5.5,0.0055,2,dereza-2019,183,184,GOST 9563-60,historical textbook reference; current standard not asserted
+module-7,0.007,2,dereza-2019,183,184,GOST 9563-60,historical textbook reference; current standard not asserted
+module-9,0.009,2,dereza-2019,183,184,GOST 9563-60,historical textbook reference; current standard not asserted
+module-11,0.011,2,dereza-2019,183,184,GOST 9563-60,historical textbook reference; current standard not asserted
+module-14,0.014,2,dereza-2019,183,184,GOST 9563-60,historical textbook reference; current standard not asserted

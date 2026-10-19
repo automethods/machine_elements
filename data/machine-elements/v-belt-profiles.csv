@@ -1,0 +1,11 @@
+id,choice,profile,family,manufacturer,product,width_m,height_m,min_pulley_m,length_basis,standard,source_id,source_printed_page,source_pdf_page,source_url
+optibelt-vb-z,1,Z/10,classical,Optibelt,VB S=C Plus,0.010,0.006,0.050,Li,DIN 2215 / ISO 4184,optibelt-pr17,14,16,https://docs.rs-online.com/ab53/A700000011050134.pdf
+optibelt-vb-a,2,A/13,classical,Optibelt,VB S=C Plus,0.013,0.008,0.071,Li,DIN 2215 / ISO 4184,optibelt-pr17,14,16,https://docs.rs-online.com/ab53/A700000011050134.pdf
+optibelt-vb-b,3,B/17,classical,Optibelt,VB S=C Plus,0.017,0.011,0.112,Li,DIN 2215 / ISO 4184,optibelt-pr17,14,16,https://docs.rs-online.com/ab53/A700000011050134.pdf
+optibelt-vb-c,4,C/22,classical,Optibelt,VB S=C Plus,0.022,0.014,0.180,Li,DIN 2215 / ISO 4184,optibelt-pr17,14,16,https://docs.rs-online.com/ab53/A700000011050134.pdf
+optibelt-vb-d,5,D/32,classical,Optibelt,VB S=C Plus,0.032,0.020,0.355,Li,DIN 2215 / ISO 4184,optibelt-pr17,14,16,https://docs.rs-online.com/ab53/A700000011050134.pdf
+optibelt-vb-e,6,E/40,classical,Optibelt,VB S=C Plus,0.040,0.025,0.500,Li,DIN 2215 / ISO 4184,optibelt-pr17,14,16,https://docs.rs-online.com/ab53/A700000011050134.pdf
+optibelt-sk-spz,7,SPZ,narrow,Optibelt,SK S=C Plus,0.0097,0.008,0.063,Ld,DIN 7753-1 / ISO 4184,optibelt-pr17,4,6,https://docs.rs-online.com/ab53/A700000011050134.pdf
+optibelt-sk-spa,8,SPA,narrow,Optibelt,SK S=C Plus,0.0127,0.010,0.090,Ld,DIN 7753-1 / ISO 4184,optibelt-pr17,4,6,https://docs.rs-online.com/ab53/A700000011050134.pdf
+optibelt-sk-spb,9,SPB,narrow,Optibelt,SK S=C Plus,0.0163,0.013,0.140,Ld,DIN 7753-1 / ISO 4184,optibelt-pr17,4,6,https://docs.rs-online.com/ab53/A700000011050134.pdf
+optibelt-sk-spc,10,SPC,narrow,Optibelt,SK S=C Plus,0.022,0.018,0.224,Ld,DIN 7753-1 / ISO 4184,optibelt-pr17,4,6,https://docs.rs-online.com/ab53/A700000011050134.pdf

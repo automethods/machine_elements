@@ -1,0 +1,18 @@
+{
+  "schema": "technical-machine-elements-release/1",
+  "version": "0.3.0",
+  "date": "2026-10-16",
+  "producer": "vehickle_math_models/data/machine-elements",
+  "unitBasis": "SI: m, N, Pa, Hz; original HB retained; strength bases and stock-size applicability explicit",
+  "files": {
+    "bearings.csv": "185177690d621afc304badb13b8ba3d457520c5f17256662edb1844d2cb59b0d",
+    "materials.csv": "671088f8514dc14010c69b3b7c7ae09696c994f86b52897d782adaf8a4812bd0",
+    "gear-modules.csv": "eccb12ebe9198fb6c3e7603dd7e7a6e10044a5d91c12b0f456d72cac159c4a28",
+    "v-belt-profiles.csv": "6b401be986982ecf3ec672dcb618d0a83594e0e0eac65e5e066fe614b5740ff8",
+    "timing-belts.csv": "37cfcc4a0f35655595d474d1d5d2e0e23fe1a8212353a47827dfd465b4cf488e",
+    "roller-chains.csv": "af946720ba968f60b3192e25e1e6d4b72ea21b0d16482f8951fdd7bd56dc3b5a",
+    "induction-motors.csv": "0db57dcbc327ed266961d1eb141c51f421195b8c50928f5b5a1a49d2bd9aa5ba",
+    "sources.json": "81b8c3c4ed6ec0400e4afafb260de9a744994425b8a5e32a855fe53b07429e55",
+    "catalogue.js": "869bb84695c4e1d53711803af8b1aa8967ad5d6fa363e235f36ef99989866d2a"
+  }
+}

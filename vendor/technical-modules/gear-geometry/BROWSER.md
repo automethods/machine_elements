@@ -1,0 +1,9 @@
+# Browser parametric surfaces · 0.2.0
+
+`generateBrowserGearGeometry(request)` is a pure, synchronous SI query for spur, single-helix, straight bevel, worm and planetary surfaces. It returns the same packet shape as the optional OpenSCAD generator. It needs no server, WASM, CDN, filesystem, DOM or CAD runtime. `Machine_elements` uses pinned cached packets when available and this generator for every uncached parameter set. Cloudflare Pages and GitHub Pages serve the same local modules.
+
+The numerical constructions are adapted from the pinned BOSL2 `gears.scad`: `_gear_tooth_profile`, `spur_gear2d`, `bevel_gear`, `rack2d`, `worm`, `worm_gear`. Copyright (c) 2017–2019 Revar Desmera; BSD 2-Clause terms and disclaimer are retained in [vendor/BOSL2/LICENSE](vendor/BOSL2/LICENSE). Upstream files remain byte-identical. Earcut's existing ISC-licensed implementation triangulates polygon caps.
+
+The browser retains the normal module, involute lookup, rounded clearance valley, pitch-cone apex/backing, rounded rack-generated worm and throated worm-wheel surface/face-width construction. It keeps flank corners while resampling; curve sampling and triangulation differ from OpenSCAD. Single-helix faces use a continuous axial twist with opposite hands for mates. Large gears reduce surface sampling to bound mesh memory. These nominal meshes are not manufacturing toolpaths or strength/thermal ratings.
+
+Validation compares all fourteen previously generated independent OpenSCAD packets: radial/axial extents within 1 µm and relative volume differences below 0.4%. Every mesh is checked for closed edges, consistent winding and positive volume. Separate cases vary tooth counts, module, angle, lead and planet arrangement; 400-tooth cases verify bounded vertex counts. Browser integration tests disable the geometry API, omit the cache index and request all five families.
