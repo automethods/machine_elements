@@ -1,0 +1,1 @@
+export const technicalModules={"libraryVersion":"0.9.12","origin":"My_books/vehickle_math_models/modules","modules":{"module.mechanics.gear-geometry":"0.2.1","module.presentation.chart-publication":"0.1.0","module.mechanics.mechanical-construction":"0.1.9"},"releaseSha256":"a27c9f923584938ba9097bc0261dd0b073824cbab9fb282a45319f580b460aa4"};

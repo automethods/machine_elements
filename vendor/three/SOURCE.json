@@ -1,0 +1,13 @@
+{
+  "revision": "183",
+  "licence": "MIT",
+  "source": "Existing local Engine_motor/ICE/vendor/three",
+  "modified": false,
+  "checkedAt": "2026-10-14",
+  "files": {
+    "build/three.module.js": "e8ac51bc2f6b7eb17bc88c6540eb0a1fee872f848949373de39d55f34b5c5a8f",
+    "build/three.core.js": "6a7fc83437818534d5e30ce8c8e0ce76230ca2245446ea24744bb3d88c436583",
+    "examples/jsm/controls/OrbitControls.js": "09673b997864b8091943d2673637c0f31f7cf67daeddd0902fce9bf098a8d093",
+    "LICENSE": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+  }
+}
