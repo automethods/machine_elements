@@ -702,76 +702,6 @@
       "sha256": "01093bc50d1fab261d2cd958dd9f193af1ec0c71d872e0059610eb02f3e878ff"
     },
     {
-      "path": "vendor/technical-modules/gear-geometry/vendor/BOSL2/.github/ISSUE_TEMPLATE/bug_report.md",
-      "bytes": 522,
-      "sha256": "c6a68ba62bd76098b003b718162e80c5b60c523b41d5fb250b20119773b30abe"
-    },
-    {
-      "path": "vendor/technical-modules/gear-geometry/vendor/BOSL2/.github/ISSUE_TEMPLATE/feature_request.md",
-      "bytes": 655,
-      "sha256": "e3f8818b305a45edb1d456f1c0fb324e7da907b650f98a329698d5836e4419ad"
-    },
-    {
-      "path": "vendor/technical-modules/gear-geometry/vendor/BOSL2/.github/check_for_tabs.json",
-      "bytes": 318,
-      "sha256": "678d28279b8a458ef4e0e8dd832e932de4a640f870d597d993f6bdb0c4056a3f"
-    },
-    {
-      "path": "vendor/technical-modules/gear-geometry/vendor/BOSL2/.github/openscad_docsgen.json",
-      "bytes": 307,
-      "sha256": "f64ade46df4fd35ce87a61689e661a700500704e340351feee936ae1bac75ea3"
-    },
-    {
-      "path": "vendor/technical-modules/gear-geometry/vendor/BOSL2/.github/release.yml",
-      "bytes": 381,
-      "sha256": "8cda5ad022257901a13f8274e431c0e63c7a560d45838eb7ab319acbe19aac09"
-    },
-    {
-      "path": "vendor/technical-modules/gear-geometry/vendor/BOSL2/.github/workflows/gen_tutorials.yml",
-      "bytes": 5050,
-      "sha256": "0a8c0490d0d6f7c3673b923d82f387ffbf6047d59ea90a136d73e59dfad20e02"
-    },
-    {
-      "path": "vendor/technical-modules/gear-geometry/vendor/BOSL2/.github/workflows/main.yml",
-      "bytes": 5275,
-      "sha256": "2002a6da2045818b0ff06072e1ed6d7326c9cf865605010e0601d95627e4e9ca"
-    },
-    {
-      "path": "vendor/technical-modules/gear-geometry/vendor/BOSL2/.github/workflows/regen_docs_wiki.yml",
-      "bytes": 5708,
-      "sha256": "7ee0d86ce80a5edc56e98d600267f21fd7abc2d7e20dcce5d94b79a87976d622"
-    },
-    {
-      "path": "vendor/technical-modules/gear-geometry/vendor/BOSL2/.github/workflows/update_docs_wiki.yml",
-      "bytes": 6489,
-      "sha256": "34f18fc13fe3ad854f6ed59c86f5a6ac2b11a7214faa1e00dc47f76d72dc9bc9"
-    },
-    {
-      "path": "vendor/technical-modules/gear-geometry/vendor/BOSL2/.github/workflows/version_stamp.yml",
-      "bytes": 3225,
-      "sha256": "175410dfbfad3729bfd2a5c931d60135fbf61c4edaca2715e0321b8de6e4be14"
-    },
-    {
-      "path": "vendor/technical-modules/gear-geometry/vendor/BOSL2/.github/workflows/weekly_release.yml",
-      "bytes": 2491,
-      "sha256": "9161f689301f94ccf1604d37c939441c5165471cda9c912651ebc2bc71d1a247"
-    },
-    {
-      "path": "vendor/technical-modules/gear-geometry/vendor/BOSL2/.gitignore",
-      "bytes": 1316,
-      "sha256": "69e5bff549cd36d5f190853aa3d26170635936e68d9f2a9bec131dc4c1188c09"
-    },
-    {
-      "path": "vendor/technical-modules/gear-geometry/vendor/BOSL2/.openscad_docsgen_rc",
-      "bytes": 2004,
-      "sha256": "f87c1a76feaddec7536c3408ab591648b9f954699286997857ce02a81b4c48dc"
-    },
-    {
-      "path": "vendor/technical-modules/gear-geometry/vendor/BOSL2/.openscad_mdimggen_rc",
-      "bytes": 132,
-      "sha256": "9986faa84e95fec3b36946d1301d5c5140a4e9eb71a422b010304dd64747eaed"
-    },
-    {
       "path": "vendor/technical-modules/gear-geometry/vendor/BOSL2/CLAUDE.md",
       "bytes": 4916,
       "sha256": "4b509e5450b48b836f304c63d496a5554c368867d3a0e886fdfba3f6ec7350dd"
@@ -1370,11 +1300,6 @@
       "path": "vendor/technical-modules/gear-geometry/vendor/Earcut/src/earcut.js",
       "bytes": 43487,
       "sha256": "0daa149ae2a73377765e32fbe94ae41bdaca3f051e67412100181a673758b1b6"
-    },
-    {
-      "path": "vendor/technical-modules/gear-geometry/vendor/PlanetaryGears/.gitignore",
-      "bytes": 19,
-      "sha256": "d4334ce54de0f89220fee3a8f914687d70d69875e5a82afdecc1cadbe6abf20f"
     },
     {
       "path": "vendor/technical-modules/gear-geometry/vendor/PlanetaryGears/LICENSE",
