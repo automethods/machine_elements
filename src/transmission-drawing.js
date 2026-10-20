@@ -102,5 +102,5 @@ export function constructionAssemblySheet(model,{metadata={}}={}){
 }
 export function drawingHTML(model,options={}){
  const parts=options.sheet==='parts',sheets=parts?partSheets(model,options):[transmissionDrawing(model,options),constructionAssemblySheet(model,options)];
- return `<!doctype html><html lang="uk"><head><meta charset="utf-8"><title>Технічна механіка — ${parts?'деталі':'редуктор'} A1</title><style>@page{size:841mm 594mm;margin:0}html,body{margin:0;padding:0;background:white}.transmission-drawing{display:block;width:841mm;height:594mm;break-after:page}.transmission-drawing:last-child{break-after:auto}svg{overflow:visible}@media screen{body{max-width:100vw}.transmission-drawing{width:100%;height:auto}}</style></head><body>${sheets.join('')}</body></html>`;
+ return `<!doctype html><html lang="uk"><head><meta charset="utf-8"><title>Деталі машин — ${parts?'деталі':'редуктор'} A1</title><style>@page{size:841mm 594mm;margin:0}html,body{margin:0;padding:0;background:white}.transmission-drawing{display:block;width:841mm;height:594mm;break-after:page}.transmission-drawing:last-child{break-after:auto}svg{overflow:visible}@media screen{body{max-width:100vw}.transmission-drawing{width:100%;height:auto}}</style></head><body>${sheets.join('')}</body></html>`;
 }

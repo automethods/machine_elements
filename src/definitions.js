@@ -1,6 +1,6 @@
 import {GEARBOX_TYPES,STAGE_TYPES,stageType,gearboxExpressions} from './gearbox.js';
 import {bearings,materials,bearingLabel,materialLabel,timingBelts,chains,timingLabel,chainLabel,beltProfiles,beltProfileLabel} from './catalogues.js';
-export const VERSION='0.4.11';
+export const VERSION='0.4.12';
 export const TITLE='Проєктний розрахунок механічного привода';
 export const MODES={none:'Без гнучкої передачі',belt:'Пасова передача',timing:'Зубчастий пас',chain:'Ланцюгова передача'};
 export const SOURCES=[
