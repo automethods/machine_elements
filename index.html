@@ -1,13 +1,14 @@
 <!doctype html>
 <html lang="uk">
 <head>
+  <script src="/language.js"></script>
+  <script src="/api/language.js"></script>
  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
  <meta name="description" content="АвтоМетод: інтерактивний розрахунок механічного привода, передач, валів, підшипників, шпонок, болтів та базових деталей машин.">
- <title>automethods.com — Технічна механіка</title>
+ <title>automethods.com — Деталі машин</title>
  <link rel="icon" href="assets/favicon.svg?v=machine-elements-uniform-line-a-048" type="image/svg+xml">
  <link rel="stylesheet" href="src/app.css">
  <script src="src/language-preference.js"></script>
-  <script src="/api/language.js"></script>
  <script>window.MathJax={tex:{inlineMath:[['\\(','\\)']],displayMath:[['\\[','\\]']]},options:{skipHtmlTags:['script','noscript','style','textarea','pre','code']}};</script>
  <script defer src="vendor/mathjax/tex-svg-full.js"></script>
  <script defer src="vendor/plotly-3.3.1.min.js"></script>
@@ -27,10 +28,10 @@
   <main class="main" id="content">
    <header class="topbar"><a href="https://automethods.com/">← АвтоМетод</a><span class="save-status" id="saveStatus" role="status">Готуємо навчальний приклад…</span><details class="project-about" id="projectAbout">
   <summary>Про проєкт</summary>
-  <div class="project-about-content"><section class="project-credit-section" data-credit-role="founder"><h2>Засновник</h2><ul class="project-credit-list credits-inline" role="list"><li><strong title="Ломакін Володимир Олександрович">Ломакін В. О.</strong>, <span class="project-credit-qualification" title="кандидат технічних наук">к. т. н.</span></li></ul></section><section class="project-credit-section" data-credit-role="author"><h2>Автори</h2><ul class="project-credit-list credits-inline project-author-list" role="list"><li><strong title="Ломакін Володимир Олександрович">Ломакін В. О.</strong>, <span class="project-credit-qualification" title="кандидат технічних наук">к. т. н.</span></li><li><strong title="Мельничук Сергій Володимирович">Мельничук С. В.</strong>, <span class="project-credit-qualification" title="кандидат технічних наук, доцент">к. т. н., доц.</span></li></ul></section><section class="project-credit-section" data-credit-role="contributor"><h2>Учасники розроблення (contributors)</h2><h3>Заклад освіти: Житомирський агротехнічний фаховий коледж</h3><p class="project-credit-placeholder">Список доповнюється.</p></section><p class="project-credit-note" data-credit-note="aiAssistance">Допомога ШІ: підготовка текстів, переклад, допомога з програмуванням і перевірки (моделі родини GPT-6).</p><p class="project-credit-copyright">© 2026 Автори проєкту.</p></div>
+  <div class="project-about-content"><section class="project-credit-section" data-credit-role="founder"><h2>Засновник</h2><ul class="project-credit-list credits-inline" role="list"><li><strong title="Ломакін Володимир Олександрович">Ломакін В. О.</strong>, <span class="project-credit-qualification" title="кандидат технічних наук">к. т. н.</span></li></ul></section><section class="project-credit-section" data-credit-role="author"><h2>Автори</h2><ul class="project-credit-list credits-inline" role="list"><li><strong title="Ломакін Володимир Олександрович">Ломакін В. О.</strong>, <span class="project-credit-qualification" title="кандидат технічних наук">к. т. н.</span></li><li><strong title="Мельничук Сергій Володимирович">Мельничук С. В.</strong>, <span class="project-credit-qualification" title="кандидат технічних наук, доцент">к. т. н., доц.</span></li><li><strong title="Ємець Богдан Володимирович">Ємець Б. В.</strong>, <span class="project-credit-qualification" title="кандидат технічних наук, доцент">к. т. н., доц.</span></li><li><strong title="Рудзінський Володимир Васильович">Рудзінський В. В.</strong>, <span class="project-credit-qualification" title="доктор технічних наук, професор">д. т. н., проф.</span></li><li><strong title="Рябчук Олександр Павлович">Рябчук О. П.</strong>, <span class="project-credit-qualification" title="кандидат сільськогосподарських наук">к. с.-г. н.</span></li></ul></section><section class="project-credit-section" data-credit-role="contributor"><h2>Учасники розроблення (contributors)</h2><h3>Заклад освіти: Житомирський агротехнічний фаховий коледж</h3><p class="project-credit-placeholder">Список доповнюється.</p></section><p class="project-credit-note" data-credit-note="aiAssistance">Допомога ШІ: підготовка текстів, переклад, допомога з програмуванням і перевірки (моделі родини GPT-6).</p><p class="project-credit-copyright">© 2026 Автори проєкту.</p></div>
 </details><div class="account-controls"><a class="account-link" data-account-link href="https://automethods.com/?account=signin">Увійти</a><div class="language-switch" role="group" aria-label="Мова"><button type="button" data-language-choice="uk" translate="no">UA</button><button type="button" data-language-choice="en" translate="no">EN</button></div></div></header>
    <section class="hero">
-    <div><p class="eyebrow">Технічна механіка</p><h1>Проєктний розрахунок<br>механічного привода</h1><p class="lead">Від завдання й вибору передач — до навантажень, перевірки деталей та власного обґрунтування.</p><div class="hero-actions"><a class="guide-download-link" href="downloads/methodical-guide.pdf" download data-state="ready"><span class="guide-download-title">Методичні вказівки</span><span class="guide-download-note">Усі підтримувані варіанти розрахунку</span></a></div></div>
+    <div><p class="eyebrow">Деталі машин</p><h1>Проєктний розрахунок<br>механічного привода</h1><p class="lead">Від завдання й вибору передач — до навантажень, перевірки деталей та власного обґрунтування.</p><div class="hero-actions"><a class="guide-download-link" href="downloads/methodical-guide.pdf" download data-state="ready"><span class="guide-download-title">Методичні вказівки</span><span class="guide-download-note">Усі підтримувані варіанти розрахунку</span></a></div></div>
     <img class="hero-mark" src="assets/reducer.svg" alt="Умовна схема механічного привода з двома зубчастими ступенями">
    </section>
    <p id="accessNotice" class="note" role="status">Режим перегляду. Будь ласка, увійдіть, щоб змінювати дані та створювати або завантажувати PDF.</p><div id="loadWarning" class="note warning" hidden></div>
@@ -44,7 +45,7 @@
    </section>
    <section id="report-export" class="chapter" aria-labelledby="reportExportTitle"><header class="chapter-heading"><span class="number">PDF</span><h2 id="reportExportTitle">Технічний звіт</h2></header><p>Експорт містить вихідні дані, пояснення величин, пронумеровані формули, числові підстановки, перевірки та векторні рисунки поточного варіанта.</p><div class="report-actions"><button class="button" type="button" data-report>Оновити попередній перегляд</button><button class="button primary" type="button" data-export-pdf>Звіт A4 / PDF</button><button class="button" type="button" data-export-drawing>Креслення редуктора A1 / PDF</button><button class="button" type="button" data-export-parts>Деталі A1 / PDF</button></div><p class="source-note">Після підготовки відкриється діалог друку. Виберіть «Зберегти як PDF».</p></section>
    <section id="report" class="chapter" hidden></section>
-   <footer class="site-footer"><a href="https://automethods.com/">automethods.com</a><span>Технічна механіка · <span data-version></span></span></footer>
+   <footer class="site-footer"><a href="https://automethods.com/">automethods.com</a><span>Деталі машин · <span data-version></span></span></footer>
   </main>
  </div>
  <div class="toast" id="toast" role="alert" hidden></div>

@@ -1,16 +1,14 @@
-# AutoMethods — Machine Elements v0.4.11
+# AutoMethods — Machine Elements v0.4.12
 
-Compiled publication files for https://automethods.com/projects/mechanics/.
-This repository is a sibling of `automethods/automobile` and `automethods/home`.
-The complete working source is maintained separately.
+Publication files for https://automethods.com/projects/mechanics/.
+Managed independently in `automethods/machine_elements` and mounted by the verified
+`automethods/home` Cloudflare build. The full working source is maintained separately.
 
-The `home` Cloudflare build mounts a verified commit of this repository at
-`/projects/mechanics/`. Sign-in, language fallback and protected guide downloads
-use the shared homepage Worker and existing same-domain account.
+Visitors can view the example in Ukrainian or English. The shared AutoMethods
+account enables editing, imports and generated exports. Document downloads through
+automethods.com require the same account. Supabase credentials are configured only
+in the homepage Cloudflare project.
 
-Public visitors can view the example. Signing in enables editing and exports.
-The two project-authored PDF guides are included in this public repository.
-Website account checks apply to downloads through automethods.com.
-
-Publishing is completed through `automethods/home` after all repository uploads
-are verified. Repository commits alone do not update the live website.
+Repository uploads alone do not update the live website. The homepage pins an
+independently verified commit and the explicit publication file list. Previous
+repository assets may remain for history but are excluded from the assembled site.

@@ -1,6 +1,11 @@
 {
-  "version": "0.4.11",
+  "version": "0.4.12",
   "files": [
+    {
+      "path": "README.md",
+      "bytes": 804,
+      "sha256": "65167b7aabab17186b182ca33364bdaa869a2440517ce917c6a7a6ac15071832"
+    },
     {
       "path": "assets/college.svg",
       "bytes": 12238,
@@ -183,38 +188,38 @@
     },
     {
       "path": "downloads/methodical-guide-en.html",
-      "bytes": 1036431,
-      "sha256": "106649a9ce10551d656419e1e645b91c1cfa32b6192d51bc8beae8f5fba250fa"
+      "bytes": 1216412,
+      "sha256": "9cac52734bc4f6e2b84b0cc4cfc8365a92cacfca8eb314c61f4e1741f31ef891"
     },
     {
       "path": "downloads/methodical-guide-en.pdf",
-      "bytes": 4188508,
-      "sha256": "5cff65352ecee0ced94acdcc13acc1badeafdb9d7641e279bf12235c62f56778"
+      "bytes": 4997931,
+      "sha256": "626424907aeaf75783914a3efe8ca6abe045f59264f6adec610be206b25e9afb"
     },
     {
       "path": "downloads/methodical-guide.html",
-      "bytes": 1111223,
-      "sha256": "b11d6052b9c50553cdaed1e81868f5ed9c309f6bae7d7abe26ff3ada21ae84c7"
+      "bytes": 1293763,
+      "sha256": "4421a3203ad7b847189744b136e512abb3d79e6c0a06ce6ad453f9444dc9cc0e"
     },
     {
       "path": "downloads/methodical-guide.pdf",
-      "bytes": 4072429,
-      "sha256": "0d41da58ef7def068c5ff4b951797929305aa7428247e334c985d67d8aa4fd3e"
+      "bytes": 4884194,
+      "sha256": "1416830d50f5b357a7dc9cc4dbe46af150b7b5d69a0ddd8ea67ff5140041f43b"
     },
     {
       "path": "downloads/transmission-a1.html",
-      "bytes": 1085929,
-      "sha256": "cf00387a5ecab385c0e218ec5641ac623d74fb8098c236472535b0e5489f6608"
+      "bytes": 1085919,
+      "sha256": "ebbfd0cad6b65da77c2879c790b2408d64c2e78d49c17ba707c8c50436d7d18d"
     },
     {
       "path": "downloads/transmission-parts-a1.html",
-      "bytes": 429562,
-      "sha256": "8b399754dd981bde9f45b026a2d8c05aff40a13fa990d1bfd129121769299746"
+      "bytes": 429552,
+      "sha256": "92be72b8147f832ecff56858ccb73ef6734925f33ddea9859dc8f3a56007f481"
     },
     {
       "path": "index.html",
-      "bytes": 9446,
-      "sha256": "6ff2aca41f43903cd05a80881fa1fd8655ce02f740bcb794b7d033183e147a84"
+      "bytes": 10192,
+      "sha256": "f50874cc528147075ad2efd792b4e82024f2d3126e0b599daff702adcc946786"
     },
     {
       "path": "src/access.js",
@@ -274,7 +279,7 @@
     {
       "path": "src/definitions.js",
       "bytes": 87471,
-      "sha256": "2d5a1bb66c26c95b9c794808e56f4a13d81ee4fb86f22db61c8b9213a8ee39c3"
+      "sha256": "fa1a38d17fc4ecdef085ed4e8c08a9de82a6364bf985481da553639e07782d35"
     },
     {
       "path": "src/design-iterations.js",
@@ -353,8 +358,8 @@
     },
     {
       "path": "src/locale/en.js",
-      "bytes": 264118,
-      "sha256": "f385eab9ae6456efc23779a99631b7bac2fb1fae673599ebdcf65a88cf0db0fd"
+      "bytes": 269074,
+      "sha256": "2ec940dc7a7befd3a34678dfd730eb9c01369f3ac16647702979344621c0ff0d"
     },
     {
       "path": "src/manufacturing.js",
@@ -392,6 +397,11 @@
       "sha256": "8706c35177d1cc6b4205f6e717fbc46a98dc3a289377beb73c884f62aea62523"
     },
     {
+      "path": "src/publication.js",
+      "bytes": 3977,
+      "sha256": "87aa306b09c712f215ecd312b57a9aec1c1c41b3ff34c18ed9e9ae0822c42933"
+    },
+    {
       "path": "src/shaft-design-guide.js",
       "bytes": 6564,
       "sha256": "fa05a651093f44cdf85b8358550df51c76bcc24b03b6eb7fb9b4b5b80df2b21c"
@@ -408,8 +418,8 @@
     },
     {
       "path": "src/transmission-drawing.js",
-      "bytes": 20308,
-      "sha256": "85e20d8f789c082098534ff1a74b7ff2ec30c1736ff1aa76b09d0b05b0c21aea"
+      "bytes": 20298,
+      "sha256": "c0df3ab884f9f59d00ddc6800a5f4342a7529cd061c8cbca52026142b7c90954"
     },
     {
       "path": "vendor/LICENSE.plotly-js.txt",
